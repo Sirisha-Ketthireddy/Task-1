@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" rel="stylesheet">
+
+    <style>
+        footer{
+            display: flex;
+            line-height: 1;
+            background-color: rgb(12, 173, 108);
+            position: fixed;
+            bottom: 0px;
+            left: 0px;
+            width: 100%;
+            color: rgba(255, 255, 255, 0.799);
+        }
+        #col2{
+            margin-left: 50px;
+        }
+        li:hover{
+            color:black;
+            font-weight: 800;
+        }
+        #header{
+            display:flex;
+            margin: 20px;
+
+        }
+        li{
+            margin: 20px;
+
+        }
+        select{
+
+            border: none;
+        }
+        i{
+            font-size: 14px;
+            margin-right: 8px;
+            
+        }
+        .a{
+            color:transparent;
+            background: linear-gradient(60deg, #ff0000, #ff7300, #fffb00, #002bff, #7a00ff, #ff00c8);
+            -webkit-background-clip: text;
+            
+        }
+        .b{
+            color:transparent;
+            background: linear-gradient(60deg,red, rgb(147, 21, 42),rgb(151, 101, 8),rgb(183, 4, 183));
+            -webkit-background-clip: text;
+        }
+        #maindev{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+        }
+        #maindev div{
+            padding: 20px;
+            margin: 10px;
+            background-color: rgba(4, 4, 6, 0.87);
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            border-radius: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <ul type="none" id="header">
+            <li><i class="fa-solid fa-user"></i><a href="https://about.google/?fg=1&utm_source=google-IN&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+            <li><i class="fa-brands fa-instagram a"></i><a href="https://about.google/company-info/">Events</a></li>
+            <li><select>
+                <option>Products</option>
+                <option>Watch</option>
+                <option>Phones</option>
+                <option>Laptops</option>
+                <option>Cosmetics</option>
+            </select></li>
+            <li><i class="fa-brands fa-servicestack b"></i><a href="https://support.google.com/websearch/?visit_id=639169581959868422-4108379261&hl=en-IN&rd=2#topic=3378866">Services</a></li>
+        </ul>
+    </nav>
+     <div id="maindev">
+        <div>Home</div>
+          <div>Events</div>
+            <div>Gallery</div>
+              <div>Products</div>
+                <div>Contacts</div>
+    </div>
+<footer>
+    </div>
+        <div id="col1">
+            <ul type="none">
+                <li>Blog</li>
+                <li>Resources</li>
+                <li>Events</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div id="col2">
+            <ul type="none">
+                <li>Blog</li>
+                <li>Resources</li>
+                <li>Events</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
